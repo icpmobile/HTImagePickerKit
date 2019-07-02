@@ -305,12 +305,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HTImagePickerKit_Example/Pods-HTImagePickerKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HTImagePickerKit/HTImagePickerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTImagePickerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

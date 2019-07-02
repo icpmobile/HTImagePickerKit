@@ -1,0 +1,23 @@
+PODS:
+  - HTImagePickerKit (0.1.0):
+    - TZImagePickerController
+  - TZImagePickerController (3.2.0)
+
+DEPENDENCIES:
+  - HTImagePickerKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  HTImagePickerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HTImagePickerKit: fe0fb7118e05875d42cc86b8df79757ca2e14267
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
+
+PODFILE CHECKSUM: d0f00843b81517d12d5c0f6894742a9ad03b8852
+
+COCOAPODS: 1.6.1
