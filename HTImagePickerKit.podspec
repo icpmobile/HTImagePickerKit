@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HTImagePickerKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HTImagePickerKit' => ['HTImagePickerKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'HTImagePickerKit' => ['HTImagePickerKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

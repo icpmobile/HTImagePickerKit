@@ -37,7 +37,7 @@
         self.addButton.isAddButton = YES;
         
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-        NSString *path = [bundle pathForResource:@"ht_imgpick_add@2x" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
+        NSString *path = [bundle pathForResource:@"ht_imgpick_add@2x.png" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
 
         
         [self.addButton setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];

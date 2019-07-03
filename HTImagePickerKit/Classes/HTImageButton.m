@@ -24,7 +24,7 @@
         self.deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-        NSString *path = [bundle pathForResource:@"ht_imgpick_delete@2x" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
+        NSString *path = [bundle pathForResource:@"ht_imgpick_delete@2x.png" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
 
         
         [self.deleteButton setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
