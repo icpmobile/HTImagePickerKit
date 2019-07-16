@@ -23,7 +23,7 @@
         //删除按钮
         self.deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSBundle *bundle = [NSBundle bundleForClass:[HTImageButton class]];
         NSString *path = [bundle pathForResource:@"ht_imgpick_delete@2x.png" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
 
         

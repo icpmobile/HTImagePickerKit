@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTImagePickerKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ICP-Mobile 项目 图片视频选择组件 HTImagePickerKit.'
 
 # This description is used to generate tags and improve search results.

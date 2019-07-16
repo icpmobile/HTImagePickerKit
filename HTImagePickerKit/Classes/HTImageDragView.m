@@ -36,7 +36,7 @@
         self.addButton = [[HTImageButton alloc] initWithFrame:CGRectZero];
         self.addButton.isAddButton = YES;
         
-        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSBundle *bundle = [NSBundle bundleForClass:[HTImageDragView class]];
         NSString *path = [bundle pathForResource:@"ht_imgpick_add@2x.png" ofType:nil  inDirectory:@"HTImagePickerKit.bundle"];
 
         
